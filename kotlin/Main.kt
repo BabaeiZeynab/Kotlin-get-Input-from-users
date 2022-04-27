@@ -2,36 +2,54 @@ import java.util.Scanner
 
 fun main(args: Array<String>) {
 
- // How to get input from user with the help of Scenner
- var scenner = Scanner(System.`in`)
+ // Define array in Kotlin
 
-  println("Enter a number: ")
- var number1 = scenner.nextInt()
- println("Enter another number: ")
- var number2 = scenner.nextInt()
-
-  var result = number1%number2
-  println("result is $result")
+    var arr : Array<Int> = arrayOf(22,44,11,66,33,55,88,99,100)
 
 
+    // get array size
+//    var sizeOfarr = arr.size
+//    println(sizeOfarr)
 
-/// I can use readLine() method to get data from user
-// readLine() only works for String input
+
+    // Use for Loop to print array
+//    for(i in arr){
+//        println(i)
+//    }
 
 
-// println("Enter your name: ")
-// var name = readLine()
-// print("Input name is $name")
+    // use for Loop to print arry backward
+//    for(i in arr.size-1 downTo 0){
+//        println("index $i: ${arr[i]}")
 //
+//    }
 
- // redaLin() to get integer, float and double and so on
 
-// println("Enter a number: ")
-// var number1 = readLine()!!.toInt()
-// println("Enter another number: ")
-// var number2 = readLine()!!.toInt()
-//
-// var result = number1/number2
-// println("Result $result")
+    // print arr with for each
+//     arr.forEachIndexed { index, i ->
+//         println("$index: $i")
+//     }
+
+
+
+
+    // How to sort array in Kotlin
+
+//       arr.sort()
+//       arr.forEachIndexed { index, i ->
+//           println("index $index: $i")
+//       }
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
